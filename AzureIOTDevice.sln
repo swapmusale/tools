@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureIOTDevice", "AzureIOTDevice\AzureIOTDevice.csproj", "{FABD4C8B-6C61-48C2-ABF2-B93593E2FDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\ReadDeviceToCloudMessages.csproj", "{06A23E91-18AC-4444-89F3-3BB87D6E09C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedDevice", "SimulatedDevice\SimulatedDevice.csproj", "{EA51955F-F6AB-4C28-9ACC-D7CE4A9F6580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FABD4C8B-6C61-48C2-ABF2-B93593E2FDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABD4C8B-6C61-48C2-ABF2-B93593E2FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABD4C8B-6C61-48C2-ABF2-B93593E2FDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABD4C8B-6C61-48C2-ABF2-B93593E2FDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A23E91-18AC-4444-89F3-3BB87D6E09C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A23E91-18AC-4444-89F3-3BB87D6E09C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A23E91-18AC-4444-89F3-3BB87D6E09C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A23E91-18AC-4444-89F3-3BB87D6E09C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA51955F-F6AB-4C28-9ACC-D7CE4A9F6580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA51955F-F6AB-4C28-9ACC-D7CE4A9F6580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA51955F-F6AB-4C28-9ACC-D7CE4A9F6580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA51955F-F6AB-4C28-9ACC-D7CE4A9F6580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
